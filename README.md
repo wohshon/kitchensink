@@ -8,7 +8,7 @@ Running on OpenShift
 
 Create a jbossas-7 application
 
-    oc new-app jboss-eap6-openshift~https://github.com/christianh814/kitchensink --name=ks
+    oc new-app jboss-eap6-openshift~https://github.com/RedHatWorkshops/kitchensink --name=ks
 
 Start your build:
 
