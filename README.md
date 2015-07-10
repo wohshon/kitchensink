@@ -10,7 +10,7 @@ Create a jbossas-7 application
 
     oc new-app jboss-eap6-openshift~https://github.com/RedHatWorkshops/kitchensink --name=ks
 
-Start your build:
+Start your build
 
     oc start-build ks
 
@@ -22,6 +22,7 @@ View the build if you with
 Create a route
 
     oc expose service ks
+    oc get route ks
     
 If you make a change to the code just fire off another build
 
